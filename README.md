@@ -119,11 +119,10 @@ docker compose up -d
 
 
 ---
-# Laboratorio 2
+---
+# Laboratorio 2 - Gestión y Optimización de Procesos en Linux
 
-# Gestión y Optimización de Procesos en Linux
 
-## Universidad del Valle - Sistemas Operativos
 
 
 ## Objetivo
@@ -210,25 +209,49 @@ scripts/cpu_stress.py
 
 Contenido:
 
-```python
-while True:
-    pass
-```
+<img width="578" height="295" alt="image" src="https://github.com/user-attachments/assets/954c989b-2703-4ee2-814e-b165a66d5bce" />
+
 
 ## Evidencias
 
 Las capturas del laboratorio se encuentran en:
 
-```text
-evidencias/
-```
+htop en reposo
+
+<img width="921" height="480" alt="image" src="https://github.com/user-attachments/assets/3b943573-a4b8-4258-9966-286644329142" />
+
+
+Arbol de procesos en el sistema
+
+<img width="921" height="506" alt="image" src="https://github.com/user-attachments/assets/458459f2-1950-4229-97ba-597e2d9fb771" />
+
+
+consumo artificial de memoria usando: stress --cpu 4 --timeout 60s  
+
+<img width="921" height="501" alt="image" src="https://github.com/user-attachments/assets/39d9e144-0979-42a0-a0cf-7c09ce432efa" />
+
+
+PID de mayor consumo
+
+<img width="763" height="349" alt="image" src="https://github.com/user-attachments/assets/7182acc4-e2c7-431d-a390-e5dd2fbb865b" />
+
+Procesos con carga artificial 
+
+<img width="921" height="616" alt="image" src="https://github.com/user-attachments/assets/bad51c30-cda7-43f0-98b9-6b2a202cead9" />
+
+Cambio de valores de NI = 19, NI =20
+
+<img width="820" height="373" alt="image" src="https://github.com/user-attachments/assets/579785f0-fb0a-479d-bf2c-ea21008248fc" />
+
+
 
 ## Conclusiones
 
 Las herramientas de administración de procesos permiten identificar cuellos de botella, controlar procesos problemáticos y optimizar el uso de recursos del sistema operativo Linux.
 
->>>>>>> 86e3cc3 (Agregar laboratorio gestion y optimizacion de procesos Linux)
 ## Integrantes del grupo
-|Nombre| Codigo|
-|Adriana Milena Noscue Dagua|2477336|
-Sebastian Cucalon Astorquiza|2477344|
+
+| Nombre completo | Código | Correo institucional |
+|-----------------|--------|----------------------|
+| Adriana Milena Noscue Dagua  |     2477336  |         adriana.noscue@correounivalle.edu.co             |
+| Sebastián Cucalon Astorquiza |     2477344  |           sebastian.cucalon@correounivalle.edu.co        |
